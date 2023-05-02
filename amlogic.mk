@@ -96,11 +96,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES +=  \
     frameworks/native/data/etc/android.hardware.hdmi.cec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hdmi.cec.xml
 
-## Light
-PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-impl \
-    android.hardware.light@2.0-service
-
 ## Logo
 PRODUCT_HOST_PACKAGES += \
     res_packer

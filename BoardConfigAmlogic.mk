@@ -44,7 +44,10 @@ else
 DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/manifest.xml
 DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/manifest_bt.xml
 endif
+
 DEVICE_MATRIX_FILE := $(PLATFORM_PATH)/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(PLATFORM_PATH)/device_matrix_product_amlogic.xml \
+    vendor/lineage/config/device_framework_matrix.xml
 
 ## Kernel
 BOARD_CUSTOM_DTBIMG_MK := device/amlogic/common/mkdtbimg.mk
